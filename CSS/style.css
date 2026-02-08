@@ -1109,16 +1109,7 @@ header .header-img .pos-img .rate {
   }
 
   .logo-wrapped::after {
-    width: 400px;
-    height: 300px;
-    background: radial-gradient(
-      ellipse at center,
-      rgba(187, 255, 0, 1),
-      rgba(187, 255, 0, 0.8),
-      rgba(187, 255, 0, 0.5),
-      rgba(187, 255, 0, 0.25),
-      transparent 60%
-    );
+    display: none !important;
   }
 }
 
@@ -1212,16 +1203,7 @@ header .header-img .pos-img .rate {
   }
 
   .logo-wrapped::after {
-    width: 400px;
-    height: 300px;
-    background: radial-gradient(
-      ellipse at center,
-      rgba(187, 255, 0, 1),
-      rgba(187, 255, 0, 0.8),
-      rgba(187, 255, 0, 0.5),
-      rgba(187, 255, 0, 0.25),
-      transparent 60%
-    );
+    display: none !important;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -1261,15 +1243,6 @@ header .header-img .pos-img .rate {
   }
 
   .logo-wrapped::after {
-    width: 550px;
-    height: 300px;
-    background: radial-gradient(
-      ellipse at center,
-      rgba(187, 255, 0, 1),
-      rgba(187, 255, 0, 0.8),
-      rgba(187, 255, 0, 0.5),
-      rgba(187, 255, 0, 0.25),
-      transparent 60%
-    );
+    display: none !important;
   }
 }
