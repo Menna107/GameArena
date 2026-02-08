@@ -117,8 +117,8 @@ section .title .gray-p {
   font-weight: 400;
 }
 
-section .title p::before,
-section .title p::after {
+section .title .mainTitle::before,
+section .title .mainTitle::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -128,12 +128,12 @@ section .title p::after {
   transform: translateY(-50%);
 }
 
-section .title p::after {
+section .title .mainTitle::after {
   right: -90px;
   background: linear-gradient(to left, transparent, var(--main-text-color));
 }
 
-section .title p::before {
+section .title .mainTitle::before {
   left: -90px;
 }
 
